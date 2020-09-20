@@ -6,3 +6,10 @@ def index(request):
 
 def about(request):
     return render(request, 'pages/about.html')
+
+def login(request):
+    return render(request, 'pages/login.html')
+
+def register(request):
+    return render(request, 'pages/register.html')
+
